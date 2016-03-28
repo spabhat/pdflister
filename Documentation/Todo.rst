@@ -6,7 +6,7 @@
 .. include:: Includes.txt
 
 
-.. _links:
+.. _todo:
 
 Todo
 -----
@@ -17,3 +17,5 @@ Todo
 - Placing the message at specified position on the a specific page of the PDF based on the page number
 - Securely download actual PDF file when no messages are being added, as of now the files are re-created using FPDF
 - Ability to add author, and other PDF file information through the plugin or TypoScript configuration
+
+    I am looking for sponsors to write the next version of this extension. Please contact me. Thanking you in advance.
