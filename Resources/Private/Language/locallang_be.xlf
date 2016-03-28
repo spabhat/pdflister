@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-11-19T18:54:20Z" product-name="pdflister">
+		<header/>
+		<body>
+            <trans-unit id="sheetGeneral">
+				<source>General</source>
+			</trans-unit>
+			<trans-unit id="extraDataConfig">
+                <source>Extra Data Config</source>
+            </trans-unit>
+            <trans-unit id="appearance">
+                <source>Appearance</source>
+            </trans-unit>
+
+			<trans-unit id="flex_startingpoint">
+                <source>Folder Path</source>
+            </trans-unit>
+            <trans-unit id="flex_recursive">
+                <source>Recursive [TODO]</source>
+            </trans-unit>
+            <trans-unit id="flex_extradata">
+                <source>Add Extra Data [ Affects PDF files only ]</source>
+            </trans-unit>
+            <trans-unit id="flex_datamessage">
+                <source>Message on the PDF ( Available markers: ###USERNAME### ###EMAIL### ###FIRST_NAME### ###LAST_NAME### ###DOMAIN### ###DATE### ###TIME### )</source>
+            </trans-unit>
+            <trans-unit id="flex_dateformat">
+                <source>Date format ( php date() function default: d/M/Y )</source>
+            </trans-unit>
+            <trans-unit id="flex_timeformat">
+                <source>Time format ( php date() function default: H:i )</source>
+            </trans-unit>
+            <trans-unit id="flex_adduserdata">
+                <source>Add FE User Data [Added after the Message above]</source>
+            </trans-unit>
+            <trans-unit id="flex_posxy">
+                <source>Text's X and Y Positions on Home Page</source>
+            </trans-unit>
+            <trans-unit id="flex_posxy_sub">
+                <source>Text's X and Y Positions</source>
+            </trans-unit>
+            <trans-unit id="flex_font">
+                <source>Font Family [specify any one standard font only - Courier, Helvetica , Arial, Times, Symbol, ZapfDingbats]</source>
+            </trans-unit>
+            <trans-unit id="flex_font_size">
+                <source>Font Size</source>
+            </trans-unit>
+            <trans-unit id="flex_cellsize">
+                <source>Cell Size - of the cell within which texts gets written into</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>

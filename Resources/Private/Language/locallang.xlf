@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-11-18T23:40:21Z" product-name="pdflister">
+		<header/>
+		<body>
+			<trans-unit id="tx_pdflister_domain_model_listpdf">
+				<source>List Pdf</source>
+			</trans-unit>
+			<trans-unit id="pdflabel">
+                <source>This Document is downloaded by ###USERNAME### from the domain ###DOMAIN### on ###DATE### at ###TIME###</source>
+            </trans-unit>
+            <trans-unit id="pdf-label-general">
+                <source>This Document is downloaded from the domain ###DOMAIN### on ###DATE### at ###TIME###</source>
+            </trans-unit>
+            <trans-unit id="user-not-loggedin">
+                <source><![CDATA[You have checked to add user data, but FE User is not logged in! <br />Please ensure to set ' Usergroup Access Rights ' and make sure to login!]]></source>
+            </trans-unit>
+            <trans-unit id="errors">
+                <source>Following errors occurred while downloading:</source>
+            </trans-unit>
+		</body>
+	</file>
+</xliff>
