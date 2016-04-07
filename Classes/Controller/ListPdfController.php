@@ -64,9 +64,9 @@ class ListPdfController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControll
         $this->folderPath = str_replace('1:','',$this->settings['flex_startingpoint']);
         $this->folderCombinedId = $this->settings['flex_startingpoint'];
 
-        $fac = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Resource\\ResourceFactory'); // create instance to storage repository
+        //$fac = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Resource\\ResourceFactory'); // create instance to storage repository
 
-        $this->storageObj = $fac->getStorageObjectFromCombinedIdentifier( $this->folderCombinedId );
+        $this->storageObj = $this->resourceFactory->getStorageObjectFromCombinedIdentifier( $this->folderCombinedId );
 
         $this->folderObj = $this->storageObj->getFolder($this->folderPath);
 
