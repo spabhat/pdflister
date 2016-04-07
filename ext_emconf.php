@@ -15,16 +15,16 @@ $EM_CONF[$_EXTKEY] = array(
 	'description' => 'This extension lists PDF files from a selected Folder. The website users can download these PDF files securely, without knowing the actual PDF path. The extension also allows signing up such downloaded PDF files with a custom message.',
 	'category' => 'plugin',
 	'author' => 'Prakash A Bhat',
-	'author_email' => 'info@scwebs.in',
+	'author_email' => 'spabhat@scwebs.in',
 	'state' => 'alpha',
 	'internal' => '',
 	'uploadfolder' => '0',
 	'createDirs' => '',
 	'clearCacheOnLoad' => 0,
-	'version' => '1.0.0',
+	'version' => '1.0.1',
 	'constraints' => array(
 		'depends' => array(
-			'typo3' => '6.2.0-6.2.19',
+			'typo3' => '6.2.0-6.2.99',
 		),
 		'conflicts' => array(
 		),
